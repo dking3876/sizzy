@@ -71,6 +71,19 @@ const devices = {
       landscape: iphone7keyboardlandscape
     }
   },
+  iPhoneX: {
+    id: 'iphoneX',
+    name: 'iPhone X',
+    os: OS.APPLE,
+    type: DEVICE_TYPES.PHONE,
+    width: 375,
+    height: 812,
+    userAgent: iphoneUserAgent,
+    keyboardImg: {
+      portrait: iphone7keyboardportrait,
+      landscape: iphone7keyboardlandscape
+    }
+  },
   iPadAir: {
     id: 'ipadair',
     name: 'iPad Air',
@@ -78,7 +91,8 @@ const devices = {
     type: DEVICE_TYPES.TABLET,
     width: 768,
     height: 1024,
-    userAgent: 'Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+    userAgent:
+      'Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
     keyboardImg: {
       portrait: ipadAirKeyboardPortrait,
       landscape: ipadAirKeyboardLandscape
@@ -91,7 +105,8 @@ const devices = {
     type: DEVICE_TYPES.PHONE,
     width: 411,
     height: 731,
-    userAgent: 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3102.0 Mobile Safari/537.36'
+    userAgent:
+      'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3102.0 Mobile Safari/537.36'
   },
   galaxys4: {
     id: 'galaxys4',
@@ -100,7 +115,8 @@ const devices = {
     type: DEVICE_TYPES.PHONE,
     width: 360,
     height: 640,
-    userAgent: 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3102.0 Mobile Safari/537.36'
+    userAgent:
+      'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3102.0 Mobile Safari/537.36'
   },
   nexus7: {
     id: 'nexus7',
@@ -109,7 +125,8 @@ const devices = {
     name: 'Nexus 7',
     width: 600,
     height: 960,
-    userAgent: 'Mozilla/5.0 (Linux; Android 4.3; Nexus 7 Build/JSS15Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3102.0 Safari/537.36'
+    userAgent:
+      'Mozilla/5.0 (Linux; Android 4.3; Nexus 7 Build/JSS15Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3102.0 Safari/537.36'
   }
 };
 
