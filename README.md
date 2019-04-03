@@ -1,4 +1,6 @@
 ### 🙋‍♂️ Made by [@thekitze](https://twitter.com/thekitze)  
+🍿️ [Should you jump on the TypeScript train in 2019?](https://www.youtube.com/watch?v=C7-sSo7omnQ)  
+📹 [I was wrong about Gatsby...](https://www.youtube.com/watch?v=GLNpdJsUbpE)
 
 ### Other projects:
 - 🏫 [React Academy](https://reactacademy.io) - Interactive React and GraphQL workshops
